@@ -5,14 +5,16 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background-color: #ffe066;
+      font-family: "Arial", sans-serif;
+      background-color: #292D36;
+      color: #FFFFFF;
+      line-height: 1.6;
     }
 
     header {
-      background-color: #fca311;
+      background-color: #191D26;
       padding: 20px;
-      color: #fff;
+      text-align: center;
     }
 
     h1 {
@@ -20,23 +22,43 @@
       margin: 0;
     }
 
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
     .container {
       max-width: 800px;
-      margin: 20px auto;
+      margin: 0 auto;
       padding: 0 20px;
     }
 
     section {
       margin-bottom: 40px;
+      text-align: center;
     }
 
     h2 {
       font-size: 24px;
       margin-bottom: 20px;
+      color: #CDD8E6;
     }
 
     p {
-      line-height: 1.5;
+      margin-bottom: 20px;
     }
 
     ul {
@@ -53,6 +75,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
+      margin-top: 20px;
     }
 
     img {
@@ -64,17 +87,18 @@
       text-align: center;
       color: #888;
       padding: 20px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to my Profile Page</h1>
+    <h1>Robson A. Alves</h1>
     <nav>
       <ul>
-        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#about-me">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#medias">Medias</a></li>
+        <li><a href="#medias">Media</a></li>
       </ul>
     </nav>
   </header>
@@ -82,17 +106,29 @@
   <div class="container">
     <section id="about-me">
       <h2>About Me</h2>
-      <p>Hello, I'm Robson Alexander Alves, a 36-year-old Brazilian civil engineer currently studying Analysis and Development of Systems. I have a passion for coding and design, and I specialize in Java and C. In addition to my programming skills, I also have experience in logo design, architectural mockups, character creation for games, and illustrations using Photoshop and Illustrator. I enjoy working on app and website projects, utilizing tools like Figma and Adobe XD to bring ideas to life.</p>
+      <p>I am Robson A. Alves, a civil engineer from Brazil with a strong passion for coding and design. I have an extensive background in Analysis and Development of Systems, focusing on Java and C programming languages. With years of experience in the field, I have honed my skills in logo design, architectural mockups, character creation for games, and illustrations using industry-standard tools such as Photoshop, Illustrator, Figma, and Adobe XD.</p>
+      <p>I thrive on the challenge of transforming ideas into reality. Whether it's building cutting-edge applications or designing captivating websites, I am dedicated to delivering high-quality solutions that blend creativity, functionality, and user experience. With a meticulous attention to detail, I strive to craft visually stunning and intuitive interfaces that resonate with users.</p>
+      <p>Driven by a continuous learning mindset, I stay updated with the latest industry trends and technologies to provide innovative solutions to complex problems. I am enthusiastic about collaborating with like-minded professionals and leveraging my expertise to contribute to exciting projects in the realm of software development and design.</p>
     </section>
     
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <p>Add your portfolio content here.</p>
+      <p>Showcasing a selection of my notable projects.</p>
+      <ul>
+        <li>Project 1: [Description]</li>
+        <li>Project 2: [Description]</li>
+        <li>Project 3: [Description]</li>
+      </ul>
     </section>
     
     <section id="medias">
-      <h2>Medias</h2>
-      <p>Add your media content here.</p>
+      <h2>Media</h2>
+      <p>Explore some of my media presence and work.</p>
+      <ul>
+        <li>Website: [Website URL]</li>
+        <li>LinkedIn: [LinkedIn Profile URL]</li>
+        <li>Behance: [Behance Profile URL]</li>
+      </ul>
     </section>
     
     <section id="photos">
@@ -111,4 +147,5 @@
   </footer>
 </body>
 </html>
+
 
