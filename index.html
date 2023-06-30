@@ -3,10 +3,80 @@
 <head>
   <title>Robson Alexander Alves</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #ffe066;
+    }
+
+    header {
+      background-color: #fca311;
+      padding: 20px;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Welcome to my Profile Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#medias">Medias</a></li>
+      </ul>
+    </nav>
   </header>
   
   <div class="container">
@@ -15,19 +85,14 @@
       <p>Hello, I'm Robson Alexander Alves, a 36-year-old Brazilian civil engineer currently studying Analysis and Development of Systems. I have a passion for coding and design, and I specialize in Java and C. In addition to my programming skills, I also have experience in logo design, architectural mockups, character creation for games, and illustrations using Photoshop and Illustrator. I enjoy working on app and website projects, utilizing tools like Figma and Adobe XD to bring ideas to life.</p>
     </section>
     
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Java</li>
-        <li>C</li>
-        <li>Logo Design</li>
-        <li>Architectural Mockups</li>
-        <li>Character Creation for Games</li>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li>Figma</li>
-        <li>Adobe XD</li>
-      </ul>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Add your portfolio content here.</p>
+    </section>
+    
+    <section id="medias">
+      <h2>Medias</h2>
+      <p>Add your media content here.</p>
     </section>
     
     <section id="photos">
@@ -46,3 +111,4 @@
   </footer>
 </body>
 </html>
+
